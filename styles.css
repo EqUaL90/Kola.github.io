@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#hero {
+  background: url('hero-bg.jpg') center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
