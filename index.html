@@ -1,175 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr. (Engr.) KAREEM, Kola Yusuff | Climate Resilience Research</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. (Engr.) KAREEM, Kola Yusuff | Climate Resilience Research</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Dr. (Engr.) KAREEM, Kola Yusuff</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
-          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Hero Section -->
-  <section id="hero" class="d-flex align-items-center text-center">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Advancing Resilience in a Changing Climate</h1>
-      <p class="lead" style="color: red;">AI for Water Disaster | Dam Safety | Hydroclimatic Impacts on Reservoir Resilience | AI-driven hydrodynamic modeling | Flood, Landslide, and Drought Risks </p>
-      <a href="#research" class="btn btn-primary btn-lg mt-3">Explore My Work</a>
-    </div>
-  </section>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
 
-  <!-- About -->
-  <section id="about" class="py-5 bg-light">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4 text-center">
-          <img src="profile.jpg" class="rounded-circle img-fluid shadow-sm" alt="Profile photo">
-        </div>
-        <div class="col-md-8">
-          <h2>About Me</h2>
-          <p>
-            I am a postdoctoral researcher focused on improving the resilience of water infrastructure under the impact of climate change.
-            My work integrates <strong>AI, hydrodynamic models, smart water management techniques, reservoir modeling, and remote sensing</strong> to predict and mitigate flood and drought risks, optimize dam operations, and enhance disaster preparedness.
-          </p>
-          <p>
-            With expertise in <strong>hydroinformatics, deep learning, hydrologic and hydrodynamic modeling, and climate risk assessment</strong>, I execute water resources and disaster prevention projects through data-driven modeling, physics-driven AI and real-world water management practices.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+            <a class="navbar-brand" href="#">
+                Dr. (Engr.) KAREEM, Kola Yusuff
+            </a>
 
-  <!-- Research -->
-  <section id="research" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Research Areas</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body text-center">
-              <i class="fas fa-water fa-3x mb-3 text-primary"></i>
-              <h5 class="card-title">Flood and Dam Resilience</h5>
-              <p class="card-text">Modeling and assessing the structural and operational resilience of dams under extreme climate events.</p>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body text-center">
-              <i class="fas fa-brain fa-3x mb-3 text-primary"></i>
-              <h5 class="card-title">AI for Disaster Prediction</h5>
-              <p class="card-text">Harnessing deep learning and ensemble models for flood forecasting and early warning systems.</p>
+    </nav>
+
+
+    <!-- Hero -->
+    <section id="hero" class="d-flex align-items-center text-center">
+
+        <div class="container">
+
+            <h1 class="display-4 fw-bold">
+                Advancing Resilience in a Changing Climate
+            </h1>
+
+            <p class="lead" style="color:red;">
+                AI for Water Disaster | Dam Safety | Hydroclimatic Impacts on Reservoir Resilience |
+                AI-driven hydrodynamic modeling | Flood, Landslide, and Drought Risks
+            </p>
+
+            <a href="#research" class="btn btn-primary btn-lg mt-3">
+                Explore My Work
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-4 text-center">
+                    <img src="profile.jpg"
+                         class="rounded-circle img-fluid shadow-sm"
+                         alt="Profile photo">
+                </div>
+
+                <div class="col-md-8">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        I am a postdoctoral researcher focused on improving the resilience
+                        of water infrastructure under climate change. My work integrates
+                        <strong>AI, hydrodynamic models, smart water systems, reservoir
+                        modeling, and remote sensing</strong> to predict and mitigate flood
+                        and drought risks while strengthening dam safety and disaster
+                        preparedness.
+                    </p>
+
+                    <p>
+                        My expertise spans <strong>hydroinformatics, deep learning,
+                        hydrologic modeling, hydrodynamic simulation, and climate risk
+                        assessment</strong>. I combine data-driven approaches with
+                        physics-based models to support sustainable water management
+                        and disaster prevention.
+                    </p>
+
+                </div>
+
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body text-center">
-              <i class="fas fa-globe-americas fa-3x mb-3 text-primary"></i>
-              <h5 class="card-title">Climate Impact Modeling</h5>
-              <p class="card-text">Simulating hydrological systems under climate change scenarios using AI and integrated modeling frameworks.</p>
+    </section>
+
+
+    <!-- Research Areas -->
+    <section id="research" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-5">Research Areas</h2>
+
+            <div class="row g-4">
+
+                <!-- 1 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-water fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    Flood and Drought Risk
+                                </h5>
+
+                                <p class="card-text">
+                                    Hydro-climatic modeling and risk assessment of
+                                    floods and droughts under changing climate
+                                    conditions.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- 2 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    Dam Safety and Reservoir Resilience
+                                </h5>
+
+                                <p class="card-text">
+                                    Structural and operational assessment of dams
+                                    using climate projections and reservoir
+                                    hydrodynamic modeling.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-brain fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    AI for Disaster Prevention
+                                </h5>
+
+                                <p class="card-text">
+                                    Machine learning and deep learning techniques
+                                    for early warning systems and predictive
+                                    disaster analytics.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-globe fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    Climate Extremes and Hydro-Environmental Impact
+                                </h5>
+
+                                <p class="card-text">
+                                    Assessment of climate extremes and their
+                                    hydrological and environmental consequences.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- 5 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-microchip fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    AI-IoT Smart Water Management
+                                </h5>
+
+                                <p class="card-text">
+                                    Integration of artificial intelligence,
+                                    sensor networks, and IoT technologies for
+                                    smart water infrastructure.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- 6 -->
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none text-dark">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body text-center">
+
+                                <i class="fas fa-seedling fa-3x mb-3 text-primary"></i>
+
+                                <h5 class="card-title">
+                                    Biosystems Engineering
+                                </h5>
+
+                                <p class="card-text">
+                                    Sustainable agricultural water management,
+                                    soil–water conservation, and environmental
+                                    biosystems design.
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Publications -->
-  <section id="publications" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Selected Publications</h2>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <strong>Kareem, K. Y., Choo, I., Lee, S., & Jung, Y. (2026).</strong> Improving River Flood Mapping with Adaptive Sampling and Artificial Intelligence Techniques for Enhanced Flood Risk Assessment. <em>Water Resources Management</em>. <a href="https://doi.org/10.1007/s11269-025-04366-5" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Arheimer, B., Cudennec, C., ..…Kareem, K.Y.,..Xia, J et al. (2024).</strong> The IAHS Science for Solutions decade, with Hydrology Engaging Local People IN one Global world (HELPING). <em>Hydrological Sciences Journal</em>. <a href="https://doi.org/10.1080/02626667.2024.2355202" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Verma, A., Zanoletti, A., Kareem, K.Y. et al. (2024).</strong> Skin protection from solar ultraviolet radiation using natural compounds: a review. <em>Environ Chem Lett.</em> <a href="https://doi.org/10.1007/s10311-023-01649-4" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Kareem, K. Y., Seong, Y., Kim, K., & Jung, Y. (2022).</strong> A Case Study of Tidal Analysis Using Theory-Based Artificial Intelligence Techniques for Disaster Management in Taehwa River, South Korea. <em>Water</em> (Vol. 14, Issue 14). <a href="https://doi.org/10.3390/w14142172" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Adelodun, B., Kareem, K. Y.**, Kumar, P., et al. (2021).</strong> Understanding the impacts of the COVID-19 pandemic on sustainable agri-food system and agroecosystem decarbonization nexus: A review. <em>Journal of Cleaner Production</em>, 318(July), 128451. <a href="https://doi.org/10.1016/j.jclepro.2021.128451" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Kareem, K.Y., Adelodun B, Tiamiyu A.O. et al., (2021).</strong> Effects of COVID-19: An Environmental Point of View. In: Hussain CM, Shukla SK (eds) Detection and Analysis of SARS Coronavirus. <em>Wiley, Weinheim, Germany</em>, pp 219–242. <a href="https://doi.org/10.1016/B978-0-323-90280-9.00009-2" target="_blank">[Link]</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Kareem, K.Y., Seong, Y., & Jung, Y. (2021).</strong> LSTM prediction of streamflow during peak rainfall of Piney River. <em>Journal of Korean Society of Disaster and Security</em>. <a href="https://doi.org/10.21729/ksds.2021.14.4.17" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Tiamiyu A.O., Adelodun B, Bakare H.O., Ajibade F.O., Kareem K.Y. et al. (2021).</strong> Role of Nanotechnology in Coronavirus Detection. In: Hussain CM, Shukla SK (eds) Detection and Analysis of SARS Coronavirus. <em>Wiley</em>. <a href="#" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Akanni, S.B., Kareem K.Y., Adewole G.O. et al. (2021).</strong> Vector autoregressive modeling of crop production index – permanent cropland relationship in Nigeria. <em>Annals Computer Science Series</em>. <a href="https://anale-informatica.tibiscus.ro/download/lucrari/Vol19/19-1-14-Akanni.pdf" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Suberu, C.E., Kareem, K.Y., & Adeniran, K.A. (2020).</strong> Artificial neural network modelling of biogas yield from co-digestion of poultry droppings and cattle dung. <em>KUSET Journal</em>. <a href="http://old.ku.edu.np/kuset/index.php?go=vol14_no2" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Adelodun, B., Ajibade, F.O., Ighalo, J.O., Odey, G., Ibrahim, R.G., Kareem, K.Y., Bakare, H.O., Tiamiyu, A.O., Ajibade, T.F., Abdulkadir, T.S., Adeniran, K.A., and Choi, K.S. (2020).</strong> Assessment of socioeconomic inequality based on virus-contaminated water usage in developing countries: A review. <em>Environmental Research</em>. <a href="https://doi.org/10.1016/j.envres.2020.110309" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Kareem, K.Y., & K.A. Adeniran. (2020).</strong> Effects of electromagnetic irrigation water on Lagos spinach evapotranspiration using lysimetric method. <em>CIGR Journal</em>. <a href="https://cigrjournal.org/index.php/ejounral/article/view/5699" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Adeniran, K.A., K.Y. Kareem, K.O.Yusuf, and S.O. Afolayan. (2020).</strong> Effects of electromagnetic treatment of irrigation water on growth and yield of Lagos Spinach (Celosia argentae). <em>CIGR Journal</em>. <a href="https://cigrjournal.org/index.php/Ejounral/article/view/5697" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Garba, M.K., Akanni, S.B., Yahya, W.B., Kareem, K.Y. and R.B. Afolayan. (2020).</strong> Modelling effects of some factors that contribute to cereal yield in Nigeria using Toda-Yamamoto techniques. <em>Sule Lamido Uni. J. of Sc. and Tech</em>. <a href="https://www.slujst.com.ng/index.php/jst/article/view/36" target="_blank">Link</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Adeniran, K.A. and K.Y. Kareem. (2014).</strong> Effectiveness of using floating drum bio-digester to treat domestic sewage. <em>AFRREV STECH</em>. <a href="http://www.ajol.info/index.php/stech/article/view/110217" target="_blank">Link</a>
-        </li>
-      </ul>
-    </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-5 text-center">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Interested in collaboration or research discussions?</p>
-      <p><i class="fas fa-envelope"></i> kareemkola99@gmail.com | kareemkolayu@knu.ac.kr</p>
-      <a href="https://www.linkedin.com/in/kola-kareem-ph-d-07a240109/" class="btn btn-outline-primary me-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=g8ijRzAAAAAJ&hl=en&authuser=2" class="btn btn-outline-secondary"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-    </div>
-  </section>
+    <!-- Teaching -->
+    <section id="teaching" class="py-5 bg-light">
 
-  <footer class="bg-dark text-center text-light py-3">
-    <small>© 2025 Dr. (Engr.) KAREEM, Kola Yusuff</small>
-  </footer>
+        <div class="container">
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            <h2 class="text-center mb-4">Teaching Experience</h2>
+
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#gis">
+                        Advanced GIS Techniques and Spatial Analysis
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#soil">
+                        Soil and Water Conservation Engineering
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#climate">
+                        Climate Impact Modeling
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#others">
+                        Others
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="tab-content mt-4 text-center">
+
+                <div class="tab-pane fade show active" id="gis">
+                    <p>Content will be added.</p>
+                </div>
+
+                <div class="tab-pane fade" id="soil">
+                    <p>Content will be added.</p>
+                </div>
+
+                <div class="tab-pane fade" id="climate">
+                    <p>Content will be added.</p>
+                </div>
+
+                <div class="tab-pane fade" id="others">
+                    <p>Content will be added.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Publications -->
+    <section id="publications" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-4">Selected Publications</h2>
+            <h2 class="text-center mb-4">Selected Publications</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Kareem, K. Y., Choo, I., Lee, S., & Jung, Y. (2026).</strong> Improving River Flood Mapping with Adaptive Sampling and Artificial Intelligence Techniques for Enhanced Flood Risk Assessment. <em>Water Resources Management</em>. <a href="https://doi.org/10.1007/s11269-025-04366-5" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Arheimer, B., Cudennec, C., ..…Kareem, K.Y.,..Xia, J et al. (2024).</strong> The IAHS Science for Solutions decade, with Hydrology Engaging Local People IN one Global world (HELPING). <em>Hydrological Sciences Journal</em>. <a href="https://doi.org/10.1080/02626667.2024.2355202" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Verma, A., Zanoletti, A., Kareem, K.Y. et al. (2024).</strong> Skin protection from solar ultraviolet radiation using natural compounds: a review. <em>Environ Chem Lett.</em> <a href="https://doi.org/10.1007/s10311-023-01649-4" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Kareem, K. Y., Seong, Y., Kim, K., & Jung, Y. (2022).</strong> A Case Study of Tidal Analysis Using Theory-Based Artificial Intelligence Techniques for Disaster Management in Taehwa River, South Korea. <em>Water</em> (Vol. 14, Issue 14). <a href="https://doi.org/10.3390/w14142172" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Adelodun, B., Kareem, K. Y.**, Kumar, P., et al. (2021).</strong> Understanding the impacts of the COVID-19 pandemic on sustainable agri-food system and agroecosystem decarbonization nexus: A review. <em>Journal of Cleaner Production</em>, 318(July), 128451. <a href="https://doi.org/10.1016/j.jclepro.2021.128451" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Kareem, K.Y., Adelodun B, Tiamiyu A.O. et al., (2021).</strong> Effects of COVID-19: An Environmental Point of View. In: Hussain CM, Shukla SK (eds) Detection and Analysis of SARS Coronavirus. <em>Wiley, Weinheim, Germany</em>, pp 219–242. <a href="https://doi.org/10.1016/B978-0-323-90280-9.00009-2" target="_blank">[Link]</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Kareem, K.Y., Seong, Y., & Jung, Y. (2021).</strong> LSTM prediction of streamflow during peak rainfall of Piney River. <em>Journal of Korean Society of Disaster and Security</em>. <a href="https://doi.org/10.21729/ksds.2021.14.4.17" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Tiamiyu A.O., Adelodun B, Bakare H.O., Ajibade F.O., Kareem K.Y. et al. (2021).</strong> Role of Nanotechnology in Coronavirus Detection. In: Hussain CM, Shukla SK (eds) Detection and Analysis of SARS Coronavirus. <em>Wiley</em>. <a href="#" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Akanni, S.B., Kareem K.Y., Adewole G.O. et al. (2021).</strong> Vector autoregressive modeling of crop production index – permanent cropland relationship in Nigeria. <em>Annals Computer Science Series</em>. <a href="https://anale-informatica.tibiscus.ro/download/lucrari/Vol19/19-1-14-Akanni.pdf" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Suberu, C.E., Kareem, K.Y., & Adeniran, K.A. (2020).</strong> Artificial neural network modelling of biogas yield from co-digestion of poultry droppings and cattle dung. <em>KUSET Journal</em>. <a href="http://old.ku.edu.np/kuset/index.php?go=vol14_no2" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Adelodun, B., Ajibade, F.O., Ighalo, J.O., Odey, G., Ibrahim, R.G., Kareem, K.Y., Bakare, H.O., Tiamiyu, A.O., Ajibade, T.F., Abdulkadir, T.S., Adeniran, K.A., and Choi, K.S. (2020).</strong> Assessment of socioeconomic inequality based on virus-contaminated water usage in developing countries: A review. <em>Environmental Research</em>. <a href="https://doi.org/10.1016/j.envres.2020.110309" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Kareem, K.Y., & K.A. Adeniran. (2020).</strong> Effects of electromagnetic irrigation water on Lagos spinach evapotranspiration using lysimetric method. <em>CIGR Journal</em>. <a href="https://cigrjournal.org/index.php/ejounral/article/view/5699" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Adeniran, K.A., K.Y. Kareem, K.O.Yusuf, and S.O. Afolayan. (2020).</strong> Effects of electromagnetic treatment of irrigation water on growth and yield of Lagos Spinach (Celosia argentae). <em>CIGR Journal</em>. <a href="https://cigrjournal.org/index.php/Ejounral/article/view/5697" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Garba, M.K., Akanni, S.B., Yahya, W.B., Kareem, K.Y. and R.B. Afolayan. (2020).</strong> Modelling effects of some factors that contribute to cereal yield in Nigeria using Toda-Yamamoto techniques. <em>Sule Lamido Uni. J. of Sc. and Tech</em>. <a href="https://www.slujst.com.ng/index.php/jst/article/view/36" target="_blank">Link</a>
+              </li>
+              <li class="list-group-item">
+                <strong>Adeniran, K.A. and K.Y. Kareem. (2014).</strong> Effectiveness of using floating drum bio-digester to treat domestic sewage. <em>AFRREV STECH</em>. <a href="http://www.ajol.info/index.php/stech/article/view/110217" target="_blank">Link</a>
+              </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 text-center">
+
+        <div class="container">
+
+            <h2>Contact</h2>
+
+            <p>Interested in collaboration or research discussions?</p>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                kareemkola99@gmail.com |
+                kareemkolayu@knu.ac.kr
+            </p>
+
+            <a href="https://www.linkedin.com"
+               class="btn btn-outline-primary me-2">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+            <a href="https://scholar.google.com"
+               class="btn btn-outline-secondary">
+                <i class="fas fa-graduation-cap"></i> Google Scholar
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-light py-3">
+        <small>
+            © 2025 Dr. (Engr.) KAREEM, Kola Yusuff
+        </small>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
