@@ -19,3 +19,43 @@ body {
 section {
   scroll-margin-top: 70px;
 }
+
+<style>
+
+.research-card {
+    position: relative;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    background-image: url("MyFields.png");
+    background-size: 300% 200%;
+}
+
+.research-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.65)
+    );
+}
+
+.research-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.research-content h5 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.research-content p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+</style>
