@@ -21,7 +21,6 @@ section {
     scroll-margin-top: 70px;
 }
 
-
 .research-card {
     position: relative;
     height: 280px;              /* slightly taller for cinematic crop */
@@ -30,7 +29,7 @@ section {
     color: white;
     cursor: pointer;
 
-    background-image: url("MyFields.png");
+    background-image: url("MyFieldsAnnotationRemoved.png");
     background-size: 300% 200%;
     background-repeat: no-repeat;
 
@@ -60,15 +59,36 @@ section {
     transform: scale(1.08);
 }
 
+/* lift effect */
+.research-card {
+    position: relative;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    background-image: url("MyFields.png");
+    background-size: 300% 200%;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.research-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+}
+
+/* height */
+.research-card {
+    height: 280px;
+}
+
 /* readability overlay */
 .research-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(
-        rgba(0,0,0,0.15),
-        rgba(0,0,0,0.65)
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.75)
     );
-    z-index: 1;
 }
 
 /* text container */
